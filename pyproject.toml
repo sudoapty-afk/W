@@ -2,7 +2,7 @@
 name = "python-template"
 version = "0.1.0"
 description = ""
-authors = ["ccxt@cxt.com"]
+authors = [{ name = "Your Name", email = "ccxt@cxt.com" }]
 requires-python = ">=3.11"
 dependencies = [
     "aiogram==2.15.0",
@@ -17,3 +17,7 @@ dependencies = [
     "tqdm>=4.67.1",
     "urllib3>=2.4.0",
 ]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
